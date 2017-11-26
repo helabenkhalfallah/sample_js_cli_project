@@ -19,3 +19,8 @@ var myArray = ['a', 'b', 'c', 'd','e','f','h'];
 delete myArray[2]; 
 var removed = myArray.splice(2, 1);
 //console.log("deleted item : ", removed);
+var x = 2;
+var y = 5;
+if(x == 2 || y == 5){
+    console.log("sum is : ", x+y);
+}
