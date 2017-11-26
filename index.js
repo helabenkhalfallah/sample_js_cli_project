@@ -16,5 +16,6 @@ var myArray = ['a', 'b', 'c', 'd','e','f','h'];
 console.log("item to delete : ",myArray[2]);
 
 // removes 1 element from index 2
+delete myArray[2]; 
 var removed = myArray.splice(2, 1);
 console.log("deleted item : ", removed);

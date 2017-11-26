@@ -3,5 +3,5 @@ projectKey=sample_js_cli_project
 serverUrl=https://sonarcloud.io
 serverVersion=6.7.0.33301
 dashboardUrl=https://sonarcloud.io/dashboard/index/sample_js_cli_project
-ceTaskId=AV_4fzHF1Q5aQJmOIRxf
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AV_4fzHF1Q5aQJmOIRxf
+ceTaskId=AV_4nNT_onIsCQVnVLrM
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AV_4nNT_onIsCQVnVLrM
