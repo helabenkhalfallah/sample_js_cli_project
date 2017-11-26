@@ -12,7 +12,7 @@ let aCar = new Car("Volks Wogen","Polo 6","2017");
 console.log('aCar : ', aCar);
 
 //prepare array
-var myArray = ['a', 'b', 'c', 'd','e'];
+var myArray = ['a', 'b', 'c', 'd','e','f','h'];
 console.log("item to delete : ",myArray[2]);
 
 // removes 1 element from index 2
