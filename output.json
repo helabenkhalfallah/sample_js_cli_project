@@ -1,0 +1,92 @@
+[
+  {
+    "description": "  As a developer\n  I want to have webdriver available to me in my steps\n  So that I don't have to configure my world object and I focus on testing",
+    "elements": [
+      {
+        "id": "use-browser-inside-steps;visit-monoprix",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Visit Monoprix",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I visit \"http://localhost:3002/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2221847468
+            },
+            "line": 9,
+            "match": {
+              "location": "C:/Users/hela/Desktop/hela_workspace/cli_projects/sample_js_cli_project/features/step_definitions/google-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see the title of \"App - Sonar React App Test\"",
+            "result": {
+              "status": "passed",
+              "duration": 27709027
+            },
+            "line": 10,
+            "match": {
+              "location": "C:/Users/hela/Desktop/hela_workspace/cli_projects/sample_js_cli_project/features/step_definitions/google-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for \"React\"",
+            "result": {
+              "status": "failed",
+              "duration": 70133131,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"[name='q']\").\n    at Object.wait (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\fibers\\future.js:449:15)\n    at Object.<anonymous> (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\wdio-sync\\build\\index.js:344:27)\n    at World.<anonymous> (C:/Users/hela/Desktop/hela_workspace/cli_projects/sample_js_cli_project/features/step_definitions/google-steps.js:15:18)\n    at C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\meteor-promise\\fiber_pool.js:43:40\n    at new CommandError (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:138:12)\n    at Object.<anonymous> (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\webdriverio\\build\\lib\\commands\\setValue.js:34:19)\n    at Object.exec (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\webdriverio\\build\\lib\\helpers\\safeExecute.js:28:24)\n    at Object.resolve (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\webdriverio\\build\\lib\\webdriverio.js:191:29)\n    at C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\webdriverio\\build\\lib\\webdriverio.js:540:32\n    at _fulfilled (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\q\\q.js:854:54)\n    at self.promiseDispatch.done (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\q\\q.js:883:30)\n    at Promise.promise.promiseDispatch (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\q\\q.js:816:13)\n    at C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\q\\q.js:624:44\n    at runSingle (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\q\\q.js:137:13)\n    at flush (C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\q\\q.js:125:13)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickDomainCallback (internal/process/next_tick.js:128:9)"
+            },
+            "line": 11,
+            "match": {
+              "location": "C:/Users/hela/Desktop/hela_workspace/cli_projects/sample_js_cli_project/features/step_definitions/google-steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see \"results\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "C:/Users/hela/Desktop/hela_workspace/cli_projects/sample_js_cli_project/features/step_definitions/google-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 274688
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\hela\\Desktop\\hela_workspace\\cli_projects\\sample_js_cli_project\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "use-browser-inside-steps",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Use browser inside steps",
+    "tags": [],
+    "uri": "C:/Users/hela/Desktop/hela_workspace/cli_projects/sample_js_cli_project/features/test_home_title.feature"
+  }
+]

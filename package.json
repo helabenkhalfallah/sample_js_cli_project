@@ -4,7 +4,9 @@
   "description": "sample-js-cli-project",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "test": "node ./node_modules/chimp/bin/chimp.js --browser=chrome",
+    "dev": "node ./node_modules/chimp/bin/chimp.js --watch"
   },
   "repository": {},
   "author": "Hela Ben Khalfallah",
@@ -30,7 +32,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "^1.0.17",
     "request-promise": "^4.2.1",
-    "selenium-webdriver": "^3.6.0"
+    "chimp": "^0.50.2"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
