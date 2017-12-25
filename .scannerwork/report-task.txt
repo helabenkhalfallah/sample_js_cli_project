@@ -1,7 +1,6 @@
-organization=helabenkhalfallah-github
-projectKey=sample_js_cli_project
-serverUrl=https://sonarcloud.io
-serverVersion=6.7.0.33301
-dashboardUrl=https://sonarcloud.io/dashboard/index/sample_js_cli_project
-ceTaskId=AV_4nNT_onIsCQVnVLrM
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AV_4nNT_onIsCQVnVLrM
+projectKey=sample_project_cli
+serverUrl=http://localhost:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://localhost:9000/dashboard/index/sample_project_cli
+ceTaskId=AWCJpMrDAr6dRPnuZV2E
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWCJpMrDAr6dRPnuZV2E
